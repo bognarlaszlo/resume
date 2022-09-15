@@ -1,0 +1,22 @@
+@use 'theme/base' as *;
+
+main {
+    padding: var(--space-xxl) 0;
+}
+
+header {
+    aside {
+        a {
+            color: inherit;
+            text-decoration: none;
+
+            i {
+                margin-right: var(--space-xs)
+            }
+        }
+    }
+}
+
+.highlights {
+    list-style: inside;
+}

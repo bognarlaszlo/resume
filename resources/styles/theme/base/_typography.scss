@@ -1,0 +1,54 @@
+:root {
+    --font-primary: 'Work Sans', sans-serif;
+    --font-secondary: 'Inconsolata', monospace;
+
+    // Font Size
+    --text-base: 1rem;      // Base font size
+    --text-scale: 1.2;      // Type scale ratio
+
+    --text-unit: var(--text-base);
+
+    // line-height
+    --body-line-height: 2;
+    --heading-line-height: 1.2;
+}
+
+:root, * {
+    --text-xs: calc((var(--text-unit) / var(--text-scale)) / var(--text-scale));
+    --text-sm: calc(var(--text-xs) * var(--text-scale));
+    --text-md: calc(var(--text-sm) * var(--text-scale) * var(--text-scale));
+    --text-lg: calc(var(--text-md) * var(--text-scale));
+    --text-xl: calc(var(--text-lg) * var(--text-scale));
+    --text-xxl: calc(var(--text-xl) * var(--text-scale));
+    --text-xxxl: calc(var(--text-xxl) * var(--text-scale));
+    --text-xxxxl: calc(var(--text-xxxl) * var(--text-scale) * var(--text-scale));
+}
+
+body {
+    font-family: var(--font-secondary);
+    font-size: var(--text-base, 1rem);
+    line-height: var(--body-line-height);
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--font-primary);
+    line-height: var(--heading-line-height);
+    font-weight: bold;
+}
+
+h1 { font-size: var(--text-xxl) }
+h2 { font-size: var(--text-xl) }
+h3 { font-size: var(--text-lg) }
+h4 { font-size: var(--text-md) }
+
+.display-1 { font-size: var(--text-xxxxl) }
+.display-2 { font-size: var(--text-xxxl) }
+
+strong {
+    font-weight: 800;
+}
+
+small {
+    color: var(--color-contrast-low);
+    font-size: var(--text-sm);
+}

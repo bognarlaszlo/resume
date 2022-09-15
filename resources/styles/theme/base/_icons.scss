@@ -1,0 +1,24 @@
+// don't modify this file -> edit 📁 custom-style/_icons.scss to set your custom icons style
+
+:root {
+    // default icon sizes
+    --icon-xxxs: 8px;
+    --icon-xxs: 12px;
+    --icon-xs: 16px;
+    --icon-sm: 24px;
+    --icon-md: 32px;
+    --icon-lg: 48px;
+    --icon-xl: 64px;
+    --icon-xxl: 96px;
+    --icon-xxxl: 128px;
+}
+
+.icon {
+    width: var(--size);
+    text-align: center;
+
+    /// Icon sizes
+    @each $size in (xxxl, xxl, xl, lg, md, sm, xs, xxs, xxxs) {
+        &--#{$size} { --size: var(--icon-#{$size}) }
+    }
+}

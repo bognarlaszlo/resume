@@ -1,0 +1,20 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "node ./.build/esbuild.js",
+    "watch": "node ./.build/esbuild.js --watch",
+    "prod": "node ./.build/esbuild.js --production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "esbuild": "^0.14.43",
+    "esbuild-postsass": "^0.0.6",
+    "postcss-resolve-urls": "^0.0.4"
+  }
+}

@@ -1,0 +1,154 @@
+{
+    "basics": {
+        "name": "László Bognár",
+        "title": "Front-End Developer",
+        "summary": "I'm a Front-End Developer with 10 years industry experience. I specialize in vanilla JavaScript but have hands-on experience with Angular, Lit, Vue, React and Svelte.",
+        "profiles": [
+            {"icon": "fas fa-at", "url": "mailto:blaszlo89@gmail.com", "label": "blaszlo89@gmail.com"},
+            {"icon": "fas fa-phone", "url": "tel:+36705348770", "label": "+36-70/534-8770"},
+            {"icon": "fab fa-github", "url": "https://github.com/bognarlaszlo", "label": "bognarlaszlo"}
+        ]
+    },
+    "skills": [
+        {"name": "Languages", "keywords": "JavaScript, SASS, CSS, PHP, Bash, AppleScript"},
+        {"name": "Frameworks", "keywords": "Node, LitElement, Svelte, React, Vue.js, Wordpress, Yii2, Laravel"},
+        {"name": "Tools", "keywords": "Git, Github Actions, ESBuild, Webpack, Docker, CircleCI, Jenkins, Sketch, Adobe CC"}
+    ],
+    "work": [
+        {
+            "company": "Dialogue Creatives Kft. (Index.hu - formerly IndaLabs Zrt.)",
+            "position": "Senior Front-End Developer",
+            "startDate": "2017 november",
+            "endDate": "",
+            "summary": "",
+            "highlights": [
+                "Come up with and realize ideas for big events (e.g. Parliamentary Election, World Cup, Winter Olympics)",
+                "Developing a back-end to work with data for the Parliamentary Election",
+                "Improving sites performance",
+                "Creating reusable, cross-site banner types",
+                "Plan and make new ad serving mechanism for Index.hu related sites",
+                "Leading the front-end development team",
+                "Actively collaborate with the Journalists, Project Managers, Art Director & Designers"
+            ]
+        },
+        {
+            "company": "GRANTIS Zrt.",
+            "position": "Senior Web Developer",
+            "website": "https://grantis.hu/",
+            "startDate": "2016 november",
+            "endDate": "2017 november",
+            "summary": "",
+            "highlights": [
+                "Create high performance informational websites for the company",
+                "Developing online calculators based on Excel spreadsheets",
+                "Creating a Core API for cross-site information sharing, better user experience and monitoring",
+                "Integrating MiniCRM to the Core API",
+                "Leading the development team",
+                "Actively collaborate with the Financial Professionals, Art Director & Designers"
+            ]
+        },
+        {
+            "company": "Blog.hu (Inda-Labs Zrt.)",
+            "position": "Front-End Developer",
+            "website": "https://blog.hu/",
+            "startDate": "2015 november",
+            "endDate": "2016 november",
+            "summary": "",
+            "highlights": [
+                "Optimizing & Maintaining performance of our own blogging platform",
+                "Creating & Maintaining themes for the platform",
+                "Actively collaborate with the Art Director & Designers",
+                "Communication with premium bloggers"
+            ]
+        },
+        {
+            "company": "UP Advertising",
+            "position": "Senior Web Developer",
+            "website": "https://up.hu/",
+            "startDate": "2014 january",
+            "endDate": "2015 november",
+            "summary": "",
+            "highlights": [
+                "Creating a wide variety of promotional and company websites",
+                "Creating promotional tablet games for offline events (e.g. Slot Machine, Quiz)",
+                "Leading the development team",
+                "Actively collaborate with the Art Director & Designers",
+                "Present ideas and finished products to the clients"
+            ]
+        },
+        {
+            "company": "Sebastiano Scarpa Kft.",
+            "position": "Web Developer, Marketing Assistant",
+            "website": "https://www.sebastiano.hu/",
+            "startDate": "2012 october",
+            "endDate": "2014 january",
+            "summary": "",
+            "highlights": [
+                "Creating and maintaining the company website",
+                "Making Facebook apps",
+                "Come up with web-based ideas to increase engagement with possible and existing customers."
+            ]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "AppArt Egyesület",
+            "position": "Volunteer",
+            "website": "http://appart.hu/",
+            "startDate": "2019 january",
+            "endDate": "2019 december"
+        }
+    ],
+    "awards": [
+        {
+            "name": "Mátraszentistváni Sípark",
+            "date": "2015 december",
+            "award": "Az Év Honlapja - Special Prize"
+        },
+        {
+            "name": "Berentzen Liqueur",
+            "date": "2014 december",
+            "award": "Az Év Honlapja - Special Prize"
+        },
+        {
+            "name": "Berentzen Liqueur",
+            "date": "2014 december",
+            "award": "Media Design - Golden Award"
+        },
+        {
+            "name": "Peppers! Restaurant",
+            "date": "2014 május",
+            "award": "Hipnózis - Bronze Award"
+        }
+    ],
+    "languages": [
+        {
+            "language": "Hungarian",
+            "fluency": "Native"
+        },
+        {
+            "language": "English",
+            "fluency": "B2"
+        }
+    ],
+    "interests": [
+        {
+            "name": "IoT"
+        },
+        {
+            "name": "Machine Learning"
+        },
+        {
+            "name": "Open Source"
+        },
+        {
+            "name": "Travel"
+        },
+        {
+            "name": "Gastronomy"
+        },
+        {
+            "name": "Music"
+        }
+    ]
+}
